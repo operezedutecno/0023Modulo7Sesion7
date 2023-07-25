@@ -1,0 +1,23 @@
+{
+  "name": "0023modulo7sesion7",
+  "version": "1.0.0",
+  "description": "Práctica Programación Orientada a Objetos",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/operezedutecno/0023Modulo7Sesion7.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/operezedutecno/0023Modulo7Sesion7/issues"
+  },
+  "homepage": "https://github.com/operezedutecno/0023Modulo7Sesion7#readme",
+  "dependencies": {
+    "uuid": "^9.0.0"
+  }
+}
