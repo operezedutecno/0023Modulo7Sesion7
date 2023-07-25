@@ -70,4 +70,6 @@ module.exports = class Prendas {
   totalConImpuesto() {
     return this._precio + this.calcularImpuesto();
   }
+
+  //Método que retorne un objeto con el código, nombre, precio, impuesto y el total con impuesto
 };

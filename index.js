@@ -21,5 +21,10 @@ listado.push(prenda1, prenda2)
 
 
 listado.forEach(prenda => {
-    console.log(prenda.mostrarDescripcion());
+    // console.log(prenda.mostrarDescripcion());
+    prenda.precio = prenda.precio * 1.1
+    console.log(`Nombre: ${prenda.nombre} | Precio: ${prenda.precio} | Impuestos: ${prenda.calcularImpuesto()} | Total: ${prenda.totalConImpuesto()}`);
 })
+
+console.log("------------------------------------");
+console.table(listado);
